@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Toaster } from "./components/ui/sonner";
 import "./App.css";
 
 // Import pages
@@ -23,7 +22,6 @@ function App() {
           <Route path="/templates" element={<Templates />} />
           <Route path="/agent/:id" element={<AgentDetail />} />
         </Routes>
-        <Toaster />
       </BrowserRouter>
     </div>
   );
