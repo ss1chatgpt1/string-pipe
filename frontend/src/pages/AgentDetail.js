@@ -22,7 +22,7 @@ import {
   Trash2
 } from "lucide-react";
 import { mockAgents, mockExecutionLogs } from "../data/mockData";
-import { toast } from "sonner";
+import { toast } from "../hooks/use-toast";
 
 const AgentDetail = () => {
   const navigate = useNavigate();
