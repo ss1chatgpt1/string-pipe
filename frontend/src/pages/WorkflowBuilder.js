@@ -21,7 +21,7 @@ import {
   Copy
 } from "lucide-react";
 import { mockWorkflowSteps } from "../data/mockData";
-import { toast } from "sonner";
+import { toast } from "../hooks/use-toast";
 
 const WorkflowBuilder = () => {
   const navigate = useNavigate();
