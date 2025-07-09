@@ -22,7 +22,7 @@ import {
   Clock,
   AlertCircle
 } from "lucide-react";
-import { toast } from "sonner";
+import { toast } from "../hooks/use-toast";
 
 const AgentBuilder = () => {
   const navigate = useNavigate();
